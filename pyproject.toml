@@ -1,0 +1,13 @@
+[project]
+name = "hwo-mission-control"
+version = "0.1.0"
+description = "Mission simulation suite for Habitable Worlds Observatory"
+requires-python = ">=3.12"
+dependencies = [
+    "orbix",
+    "yippy",
+    "coronagraphoto",
+    "exoverses",
+    "EXOSIMS",
+    "exosims-plugins",
+]
